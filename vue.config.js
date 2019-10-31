@@ -7,13 +7,13 @@ module.exports = {
   publicPath: '',
   // productionSourceMap: process.env.NODE_ENV === 'development',
   devServer: {
-    open: true,
-    host: 'localhost',
-    proxy: {
-      '/cn': {
-        target: 'http://xxxx'
-      }
-    }
+    open: true
+    // host: 'localhost',
+    // proxy: {
+    //   '/cn': {
+    //     target: 'http://xxxx'
+    //   }
+    // }
   },
   pluginOptions: {
     dll: {
