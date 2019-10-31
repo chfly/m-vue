@@ -1,4 +1,4 @@
-# xteam
+# m-vue
 
 ## Project setup
 ```
